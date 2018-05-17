@@ -1,6 +1,5 @@
 # Drupal 7 with Nginx
-
-server {
+`server {
     server_name example.com;
     root /var/www/drupal8; ## <-- Your only path reference.
 
@@ -107,4 +106,4 @@ server {
         expires max;
         log_not_found off;
     }
-}
+}`
